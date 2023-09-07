@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    
+    
+}
+.square{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.wall{
+    background-color: black;
+}
+
+.coin{
+    background-color: brown;
+}
+
+.ground{
+    background-color: white;
+}
+.pacman{
+    background-color: yellow;
+    border-radius: 50%;
+}
