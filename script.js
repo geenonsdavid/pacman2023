@@ -62,9 +62,6 @@ createBoard();
 
 /**créer le pacman */
 getCaseByIndex(25).classList.add('pacman');
-
-
-
 function getCaseByIndex (index) {
     let caseIndex = document.querySelector(`[id="${index}"]`);
     return caseIndex;
