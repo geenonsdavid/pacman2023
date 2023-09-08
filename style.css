@@ -4,9 +4,7 @@
 
 body{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -16,7 +14,17 @@ body{
     color:brown;
     background-color: white;
 }
+#gameCanvas {
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    height:600px;
+    width: 600px;
 
+}
+
+h1{
+    text-align: center;
+}
 .row{
     display: flex;
     
